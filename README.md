@@ -55,3 +55,24 @@ AUG UUU ACU
 
 Aunque no existe un mecanismo biológico para convertir aminoácidos en ARN, sí es posible inferir teoricamente en posibles secuencias de ARNm utilizando la tabla de codones. Este proceso es útil en tareas de bioinformática, análisis teórico y reconstrucción aproximada de secuencias.
 
+## TABLA DE CODONES CON SU RESPECTIVO AMINOACIDO 
+
+| Codón | Aminoácido | Codón | Aminoácido | Codón | Aminoácido | Codón | Aminoácido |
+|------|------------|-------|------------|-------|------------|-------|------------|
+| UUU  | Fenilalanina (F) | UCU | Serina (S) | UAU | Tirosina (Y) | UGU | Cisteína (C) |
+| UUC  | Fenilalanina (F) | UCC | Serina (S) | UAC | Tirosina (Y) | UGC | Cisteína (C) |
+| UUA  | Leucina (L)      | UCA | Serina (S) | UAA | STOP         | UGA | STOP        |
+| UUG  | Leucina (L)      | UCG | Serina (S) | UAG | STOP         | UGG | Triptófano (W) |
+| CUU  | Leucina (L)      | CCU | Prolina (P) | CAU | Histidina (H) | CGU | Arginina (R) |
+| CUC  | Leucina (L)      | CCC | Prolina (P) | CAC | Histidina (H) | CGC | Arginina (R) |
+| CUA  | Leucina (L)      | CCA | Prolina (P) | CAA | Glutamina (Q) | CGA | Arginina (R) |
+| CUG  | Leucina (L)      | CCG | Prolina (P) | CAG | Glutamina (Q) | CGG | Arginina (R) |
+| AUU  | Isoleucina (I)   | ACU | Treonina (T) | AAU | Asparagina (N) | AGU | Serina (S) |
+| AUC  | Isoleucina (I)   | ACC | Treonina (T) | AAC | Asparagina (N) | AGC | Serina (S) |
+| AUA  | Isoleucina (I)   | ACA | Treonina (T) | AAA | Lisina (K)     | AGA | Arginina (R) |
+| AUG  | Metionina (M, Start) | ACG | Treonina (T) | AAG | Lisina (K)     | AGG | Arginina (R) |
+| GUU  | Valina (V)       | GCU | Alanina (A) | GAU | Ácido aspártico (D) | GGU | Glicina (G) |
+| GUC  | Valina (V)       | GCC | Alanina (A) | GAC | Ácido aspártico (D) | GGC | Glicina (G) |
+| GUA  | Valina (V)       | GCA | Alanina (A) | GAA | Ácido glutámico (E) | GGA | Glicina (G) |
+| GUG  | Valina (V)       | GCG | Alanina (A) | GAG | Ácido glutámico (E) | GGG | Glicina (G) |
+
