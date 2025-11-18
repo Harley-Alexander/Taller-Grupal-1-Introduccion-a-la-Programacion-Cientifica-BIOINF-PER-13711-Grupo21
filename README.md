@@ -1,8 +1,8 @@
-#Pasar de Aminoácidos a ARN
+# Pasar de Aminoácidos a ARN
 
 En biología molecular, el flujo natural corresponde al paso de ADN a ARN a proteína. Esto se conoce como el dogma central. Sin embargo, en algunos contextos teóricos, bioinformáticos, puede ser útil inferir posibles secuencias de ARN a partir de una cadena de aminoácidos.
 
-##¿Por qué no existe un proceso biológico inverso?
+## ¿Por qué no existe un proceso biológico inverso?
 
 La célula como tal no posee los medios para convertir proteínas en ácidos nucleicos. No existe un “retrotraductor” que recupere ARNm desde una secuencia de aminoácidos de forma natural.
 
@@ -16,7 +16,7 @@ Fenilalanina (Phe, F) → UUU o UUC
 
 Leucina (Leu, L) → UUA, UUG, CUU, CUC, CUA, CUG
 
-###Pasos para obtener una posible secuencia de ARN
+### Pasos para obtener una posible secuencia de ARN
 
 Tomar la secuencia de aminoácidos (por ejemplo, “MFTL”).
 
@@ -26,19 +26,18 @@ Elegir un codón posible para cada uno (debido a la degeneración del código ge
 
 Concatenar los codones para formar la secuencia final de ARN.
 
-###INDISPENSABLE REALIZAR LA DEGENERACION DEL CODIGO GENETICO
+### INDISPENSABLE REALIZAR LA DEGENERACION DEL CODIGO GENETICO
 
 La mayoría de los aminoácidos tiene varios codones posibles. Por eso, no hay una única secuencia de ARN que corresponda a una proteína dada:
 
 Ejemplo: Leucina tiene 6 codones distintos.
 Esto significa que para una proteína de n aminoácidos pueden existir múltiples secuencias posibles de ARNm.
 
-###Ejemplo
+### Ejemplo
 
 Aminoácidos:
 
 M F T
-
 
 Codones posibles:
 
@@ -52,6 +51,33 @@ Secuencia de ARN posible:
 
 AUG UUU ACU
 
-##Conclusión
+## SCRIPT PARA PASAR DE AMINOACIDO A ARN 
+# Diccionario simple aminoácido → codón (ARN)
+codon_table = {
+    "F": "UUU", "L": "UUA", "I": "AUU", "M": "AUG",
+    "V": "GUU", "S": "UCU", "P": "CCU", "T": "ACU",
+    "A": "GCU", "Y": "UAU", "H": "CAU", "Q": "CAA",
+    "N": "AAU", "K": "AAA", "D": "GAU", "E": "GAA",
+    "C": "UGU", "W": "UGG", "R": "CGU", "G": "GGU"
+}
+
+def aminoacidos_a_arn(seq_aminoacidos):
+    seq_aminoacidos = seq_aminoacidos.upper()
+    arn = []
+    
+    for aa in seq_aminoacidos:
+        if aa not in codon_table:
+            raise ValueError(f"Aminoácido desconocido: {aa}")
+        arn.append(codon_table[aa])
+    
+    return "".join(arn)
+
+# Ejemplo de uso
+proteina = "MSTAK"
+print(aminoacidos_a_arn(proteina))
+
+
+## Conclusión
 
 Aunque no existe un mecanismo biológico para convertir aminoácidos en ARN, sí es posible inferir teoricamente en posibles secuencias de ARNm utilizando la tabla de codones. Este proceso es útil en tareas de bioinformática, análisis teórico y reconstrucción aproximada de secuencias.
+
