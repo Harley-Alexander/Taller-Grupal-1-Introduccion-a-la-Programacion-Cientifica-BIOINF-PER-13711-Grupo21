@@ -51,32 +51,6 @@ Secuencia de ARN posible:
 
 AUG UUU ACU
 
-## SCRIPT PARA PASAR DE AMINOACIDO A ARN 
-# Diccionario simple aminoácido → codón (ARN)
-codon_table = {
-    "F": "UUU", "L": "UUA", "I": "AUU", "M": "AUG",
-    "V": "GUU", "S": "UCU", "P": "CCU", "T": "ACU",
-    "A": "GCU", "Y": "UAU", "H": "CAU", "Q": "CAA",
-    "N": "AAU", "K": "AAA", "D": "GAU", "E": "GAA",
-    "C": "UGU", "W": "UGG", "R": "CGU", "G": "GGU"
-}
-
-def aminoacidos_a_arn(seq_aminoacidos):
-    seq_aminoacidos = seq_aminoacidos.upper()
-    arn = []
-    
-    for aa in seq_aminoacidos:
-        if aa not in codon_table:
-            raise ValueError(f"Aminoácido desconocido: {aa}")
-        arn.append(codon_table[aa])
-    
-    return "".join(arn)
-
-# Ejemplo de uso
-proteina = "MSTAK"
-print(aminoacidos_a_arn(proteina))
-
-
 ## Conclusión
 
 Aunque no existe un mecanismo biológico para convertir aminoácidos en ARN, sí es posible inferir teoricamente en posibles secuencias de ARNm utilizando la tabla de codones. Este proceso es útil en tareas de bioinformática, análisis teórico y reconstrucción aproximada de secuencias.
