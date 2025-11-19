@@ -1,11 +1,11 @@
 # Taller-Grupal-1-Introduccion-a-la-Programacion-Cientifica-BIOINF-PER-13711-Grupo21
 Taller-Grupal-1 - Grupo21 
 ##Integrantes:
-### Harley Alexander, 
+### Harley Alexander, Karen Borrero, Xavier Morocho
 ### **Propósito:** 
-#### (.):Hacer un script en R que permita transcribir una secuencia de ADN a ARN en R.
-#### (.):Hacer un script en R que permita transcribir y traducir un aminoácido a proteína.
-#### (.):Hacer un script en R que permita calcular el peso molecular de una secuencia de aminoacidos.
+#### * :Hacer un script en R que permita transcribir una secuencia de ADN a ARN en R.
+#### * :Hacer un script en R que permita transcribir y traducir un aminoácido a proteína.
+#### * :Hacer un script en R que permita calcular el peso molecular de una secuencia de aminoacidos.
 ### **Objetivos:**
 #### Desarrollar distintos scripts y ejemplos de programación científica aplicados a procesos biológicos básicos, como la transcripción y la traducción genética, utilizando herramientas como R y Python.
 ### **Instrucciones de uso:**
