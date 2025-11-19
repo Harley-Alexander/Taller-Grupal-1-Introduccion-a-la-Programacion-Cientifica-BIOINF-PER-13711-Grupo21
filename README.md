@@ -1,12 +1,14 @@
 # Taller-Grupal-1-Introduccion-a-la-Programacion-Cientifica-BIOINF-PER-13711-Grupo21
 Taller-Grupal-1 - Grupo21 
+##Integrantes:
+### Harley Alexander, 
 ### **Propósito:** 
 #### (1):Hacer un script en R que permita transcribir una secuencia de ADN a ARN en R
+#### (6):Hacer un script en R que permita calcular el peso molecular de una secuencia de aminoacidos.
 ### **Objetivos:**
 #### Desarrollar distintos scripts y ejemplos de programación científica aplicados a procesos biológicos básicos, como la transcripción y la traducción genética, utilizando herramientas como R y Python.
 ### **Instrucciones de uso:**
-#### (1): Para pasar una secuencia de ADN a ARN, descargar el repositorio, o abrirlo en la aplicacion de Github Desktop en caso de windows, 
-####      y abrir el repositorio con R, usar la funcion source("R/ADN_a_ARN.R") y luego la funcion ADN_a_ARN("**Colocar aqui secuencia**") para obtener la secuencia de ARN
+#### (1): Para pasar una secuencia de ADN a ARN, primero descargar el repositorio, o abrirlo en la aplicacion de Github Desktop en caso de windows, y abrir el repositorio con R, usar la funcion source("R/ADN_a_ARN.R") y luego la funcion ADN_a_ARN("**Colocar aqui secuencia**") // Sin olvidar las comillas //  para obtener la secuencia de ARN
 
 #### (3) Traducción genética: Pasar de ARN a aminoácidos
 Este ejercicio implementa el proceso biológico de **traducción**, donde el ARN mensajero (ARNm) se transforma en una secuencia de **aminoácidos** utilizando el **código genético**.
@@ -25,6 +27,8 @@ AUGGCUUACUGA
 El resultado se escribe en el archivo: results/resultado_proteina.txt
 **Ejemplo de salida:**
 Met-Ala-Tyr-Stop
+
+### (6) Para calcular el peso molecular de una secuencia de aminoacidos, estos deben estar en notacion de una letra, primero descargar el repositorio, o abrirlo en la aplicacion de Github Desktop en caso de windows, y abrir el repositorio con R, usar la funcion source("calcular_peso_proteina.R") y colocar los aminoacidos de los que se quiera saber la suma de sus pesos moleculares, para medir nuevamente, se tendra que usar nuevamente la funcion: source("calcular_peso_proteina.R") y colocar una nueva secuencia. 
 
 ### **Cualquier información relevante:**
 #### Espacio para Cualquier informacion relevante
