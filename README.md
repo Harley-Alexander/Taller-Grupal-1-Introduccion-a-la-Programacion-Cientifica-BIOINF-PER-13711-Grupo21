@@ -4,6 +4,7 @@ Taller-Grupal-1 - Grupo21
 ### Harley Alexander, Karen Borrero, Xavier Morocho
 ### **Propósito:** 
 #### * :Hacer un script en R que permita transcribir una secuencia de ADN a ARN en R.
+#### * :Hacer un script que permita traducir una secuencia de ARN mensajero a una secuencia de aminoácidos utilizando el código genético con Phyton. 
 #### * :Hacer un script en R que permita transcribir y traducir un aminoácido a proteína.
 #### * :Hacer un script en R que permita calcular el peso molecular de una secuencia de aminoacidos.
 ### **Objetivos:**
