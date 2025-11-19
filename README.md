@@ -1,7 +1,7 @@
 # Taller-Grupal-1-Introduccion-a-la-Programacion-Cientifica-BIOINF-PER-13711-Grupo21
 Taller-Grupal-1 - Grupo21 
 ##Integrantes:
-### Harley Alexander, Karen Borrero, Xavier Morocho
+### Harley Alexander, Karen Borrero, Xavier Morocho, Jair Zambrano
 ### **Propósito:** 
 #### * :Hacer un script en R que permita transcribir una secuencia de ADN a ARN en R.
 #### * :Hacer un script que permita traducir una secuencia de ARN mensajero a una secuencia de aminoácidos utilizando el código genético con Phyton. 
@@ -44,6 +44,5 @@ Met-Ala-Tyr-Stop
   
 #### (6) Para calcular el peso molecular de una secuencia de aminoacidos, estos deben estar en notacion de una letra, primero descargar el repositorio, o abrirlo en la aplicacion de Github Desktop en caso de windows, y abrir el repositorio con R, usar la funcion source("calcular_peso_proteina.R") y colocar los aminoacidos de los que se quiera saber la suma de sus pesos moleculares, para medir nuevamente, se tendra que usar nuevamente la funcion: source("calcular_peso_proteina.R") y colocar una nueva secuencia. 
 
-### **Cualquier información relevante:**
-#### Espacio para Cualquier informacion relevante
+
 
